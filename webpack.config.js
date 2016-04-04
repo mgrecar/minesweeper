@@ -41,7 +41,9 @@ var config = {
       }
     ]
   },
-  plugins: [new webpack.HotModuleReplacementPlugin()],
+  plugins: [
+    new webpack.HotModuleReplacementPlugin()
+  ],
   resolve: {
     alias: {
       'phaser': phaser,
