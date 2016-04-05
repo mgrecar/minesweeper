@@ -6,7 +6,7 @@ import preloader from './preloader';
 import menu from './menu'; 
 import level from './level'; 
 
-var game = new Phaser.Game(200, 200, Phaser.AUTO, 'game');
+var game = new Phaser.Game(600, 600, Phaser.AUTO, 'game');
 
 game.state.add('Preloader', preloader);
 game.state.add('Menu', menu);
